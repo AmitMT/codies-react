@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/codies-react-A/static/css/main.22b6e383.chunk.css",
+    "main.js": "/codies-react-A/static/js/main.78d5c355.chunk.js",
+    "main.js.map": "/codies-react-A/static/js/main.78d5c355.chunk.js.map",
+    "runtime-main.js": "/codies-react-A/static/js/runtime-main.0a623397.js",
+    "runtime-main.js.map": "/codies-react-A/static/js/runtime-main.0a623397.js.map",
+    "static/js/2.ea76797c.chunk.js": "/codies-react-A/static/js/2.ea76797c.chunk.js",
+    "static/js/2.ea76797c.chunk.js.map": "/codies-react-A/static/js/2.ea76797c.chunk.js.map",
+    "static/js/3.62e1328f.chunk.js": "/codies-react-A/static/js/3.62e1328f.chunk.js",
+    "static/js/3.62e1328f.chunk.js.map": "/codies-react-A/static/js/3.62e1328f.chunk.js.map",
+    "index.html": "/codies-react-A/index.html",
+    "static/css/main.22b6e383.chunk.css.map": "/codies-react-A/static/css/main.22b6e383.chunk.css.map",
+    "static/js/2.ea76797c.chunk.js.LICENSE.txt": "/codies-react-A/static/js/2.ea76797c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a623397.js",
+    "static/js/2.ea76797c.chunk.js",
+    "static/css/main.22b6e383.chunk.css",
+    "static/js/main.78d5c355.chunk.js"
+  ]
+}
