@@ -6,7 +6,11 @@ import data from './../../data.json';
 import PropTypes from 'prop-types';
 
 const useStyles = makeStyles((theme) => ({
-	root: {}
+	root: {
+		position: 'relative',
+		top: theme.spacing(9),
+		width: '99%'
+	}
 }));
 
 const WordGrid = (props) => {

@@ -6,8 +6,8 @@ const useStyles = makeStyles((theme) => ({
 	root: {
 		marginBottom: '4px',
 		display: 'flex',
-		width: theme.spacing(23),
-		height: theme.spacing(17.5),
+		width: theme.spacing(24),
+		height: theme.spacing(17),
 		background: '#EEEEEE',
 		transition: '0.2s all ease',
 		alignItems: 'center',
@@ -20,10 +20,12 @@ const useStyles = makeStyles((theme) => ({
 			background: '#EEEEEE'
 		},
 
-		'& div': {
-			fontSize: '20px',
+		'& h6': {
+			fontSize: '1.125rem',
 			textTransform: 'uppercase',
-			fontWeight: '600'
+			fontWeight: theme.typography.fontFamily.bold,
+			lineHeight: 1.6,
+			letterSpacing: '0.0075em'
 		}
 	}
 }));
@@ -41,7 +43,7 @@ const WordCard = (props) => {
 				onMouseEnter={() => setShadow(7)}
 				onMouseLeave={() => setShadow(2)}
 			>
-				<div>{props.children}</div>
+				<h6>{props.children}</h6>
 			</Button>
 		</React.Fragment>
 	);
